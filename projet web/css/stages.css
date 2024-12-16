@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global du site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+
+
+/* Section principale */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* Style pour la section "stage" */
+/* Style pour la section "stage" */
+.stage {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.stage-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.company-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.stage-description {
+    flex: 1;
+}
+
+.stage-description h2 {
+    color: #004d99;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.stage-description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0.8rem;
+}
+
+
+
+/* Animation au survol */
+.stage:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Style du tableau des compétences */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}

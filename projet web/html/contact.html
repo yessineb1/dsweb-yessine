@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-Nous</title>
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="../css/head,foot.css">
+    <!-- Ajout de Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="header-content">
+           
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="parcours.html">Parcours</a></li>
+                    <li><a href="competences.html">Compétences</a></li>
+                    <li><a href="stages.html">Stages</a></li>
+                    <li><img src="../images/ins.jpg" alt="Ma photo" class="photo-profile"></li>
+                
+                    <li><a href="passions.html">Passions</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="temoignage.html">Témoignage IIT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section Contact -->
+    <main>
+        <div class="contact-container">
+            <h1>Contactez-Moi</h1>
+            <p>Vous avez une question ou besoin d’aide ? Envoyez-moi un message !</p>
+            <!-- Formulaire -->
+            <form action="mailto:yessineboujelben5@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+                
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" placeholder="Votre message ici..." required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>Suivez-moi sur :</p>
+        <!-- Liens avec icônes Font Awesome -->
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | 
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </footer>
+</body>
+</html>

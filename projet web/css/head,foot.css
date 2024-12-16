@@ -1,0 +1,80 @@
+
+
+/* Style général pour le header */
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #004d99 64%, transparent 50%);
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centre les éléments verticalement */
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+.photo-profile {
+    width: 120px; /* Taille de l'image */
+    height: 120px;
+    border-radius: 50%; /* Image ronde */
+    object-fit: cover; /* Garde l'image bien découpée sans la déformer */
+    border: 3px solid #fff; /* Bordure autour de l'image en blanc */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optionnel : ajouter un effet hover pour l'image */
+.photo-profile:hover {
+    transform: scale(1.1); /* Légère augmentation de taille au survol */
+    transition: transform 0.3s ease;
+}
+
+/* Menu de navigation */
+
+nav ul li {
+    display: inline;
+    
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5px 0;
+    background-color: #004d99;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #f5f1f1;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
